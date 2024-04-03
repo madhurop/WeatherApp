@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extraordinary Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app" >
+    <div class="weather-card" id="abc">
+      <div class="weather-header">
+        <div id="loader"></div>
+        
+          <input  type="text" placeholder="Enter City Name" id="searchInput">
+        <button id="search-bt">Submit</button>
+
+      
+        
+        <h2 class="city">Karjat</h2>
+        <p class="date"></p>
+      </div>
+      
+      <div class="weather-info">
+        <p class="temperature">30.6</p>
+        <p class="description">Cloudy</p>
+        <div class="additional-info">
+          <p id="humid-t">Humidity: 54 %</p>
+          <p class="wind-t">Wind:4.5 km/hr</p>
+          <p class="visi-t">Visibility:15.4 km</p>
+        </div>
+      </div>
+      <div class="forecast">
+        <!-- Forecast for seven days -->
+        <div class="day" id="dayId">
+          <p class="day-name">Mon</p>
+          <p class="day-temp">65°F</p>
+          <p class="day-weather">Cloudy</p>
+        </div>
+        <div class="day" id="dayId">
+          <p class="day-name">Tue</p>
+          <p class="day-temp">70°F</p>
+          <p class="day-weather">Clear</p>
+        </div>
+        <div class="day" id="dayId">
+          <p class="day-name">Wed</p>
+          <p class="day-temp">68°F</p>
+          <p class="day-weather">Sunny</p>
+        </div>
+        <div class="day" id="dayId">
+          <p class="day-name">Thu</p>
+          <p class="day-temp">72°F</p>
+          <p class="day-weather">Partly Cloudy</p>
+        </div>
+        <div class="day" id="dayId">
+          <p class="day-name">Fri</p>
+          <p class="day-temp">69°F</p>
+          <p class="day-weather">Showers</p>
+        </div>
+        <div class="day" id="dayId">
+          <p class="day-name">Sat</p>
+          <p class="day-temp">71°F</p>
+          <p class="day-weather">Thunderstorms</p>
+        </div>
+        <div class="day" id="dayId">
+          <p class="day-name">Sun</p>
+          <p class="day-temp">67°F</p>
+          <p class="day-weather">Rain</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
